@@ -1,26 +1,26 @@
 class Rum < Formula
   desc "A diff-centric coding agent TUI"
   homepage "https://github.com/KAJdev/rum"
-  version "0.5.7"
+  version "0.5.8"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/KAJdev/rum/releases/download/v0.5.7/rum-aarch64-apple-darwin.tar.gz"
-      sha256 "cc1edb1b1905a5a52181a318c115ef7565808e9d3c63a8dba9567613dc032438"
+      url "https://github.com/KAJdev/rum/releases/download/v0.5.8/rum-aarch64-apple-darwin.tar.gz"
+      sha256 "fbad6be58ec764fbf6f0ec6e5e779863a0865cc29ced35b1dc4b4b4160da3841"
     else
-      url "https://github.com/KAJdev/rum/releases/download/v0.5.7/rum-x86_64-apple-darwin.tar.gz"
-      sha256 "6d0d168e451c996cdbb8f3364bb0afa95d687f5d18432912cd8d06af6a65f96f"
+      url "https://github.com/KAJdev/rum/releases/download/v0.5.8/rum-x86_64-apple-darwin.tar.gz"
+      sha256 "abdf15b694f7081d9a67aa8b9b5f4ba6d63372b44ac002325c97b3a99417609d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/KAJdev/rum/releases/download/v0.5.7/rum-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "76c3117699776bc6236747c7948933d5d7e4abb88f884e3367bf337c35e2f5b7"
+      url "https://github.com/KAJdev/rum/releases/download/v0.5.8/rum-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e53b419f8a826f30966d383bcfab45ff7dfa83775fbe522fd04ac1ffdd31e751"
     else
-      url "https://github.com/KAJdev/rum/releases/download/v0.5.7/rum-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "859c8ff5422168d96969798d3ac0fa058d4fd348320fba96de4dd53151291550"
+      url "https://github.com/KAJdev/rum/releases/download/v0.5.8/rum-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "cc4b2fa55cecffc8e306012fee2793869f581e72bfe7dd92a6461fc34b74d0de"
     end
   end
 
