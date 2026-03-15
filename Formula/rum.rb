@@ -7,20 +7,20 @@ class Rum < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/KAJdev/rum/releases/download/v0.6.0/rum-aarch64-apple-darwin.tar.gz"
-      sha256 "31e341c4b3d344027bfab5eba76dcc3d4ae9f88efb8b346126f3a09901fc20e6"
+      sha256 "9080e68cf3173f14aa1109c90ac83de779856ee173fdacf8156e9fa53643aeec"
     else
       url "https://github.com/KAJdev/rum/releases/download/v0.6.0/rum-x86_64-apple-darwin.tar.gz"
-      sha256 "a207d301b073061eecbafec2c345ac034f454ad7a99e955d3bb268c9ad935846"
+      sha256 "6f570430ea2e305bb592dbbbb8bb7e9592758770c8826b2004702271dbb37058"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/KAJdev/rum/releases/download/v0.6.0/rum-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bcdee162da5d8fbf8661afa7196b6ed627c54c586f68ad325c69afe288079edf"
+      sha256 "e51c255404a919813237bee89f98ebc3443ce28b1d6df3eedc40a36b5772903a"
     else
       url "https://github.com/KAJdev/rum/releases/download/v0.6.0/rum-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a1515f00c640249df5d5c232bc0715f6339e3288c12c44be8b66ed2abedcfb4d"
+      sha256 "fefdb2c247813fb9d2ae5db9734f859841bbd756f0805c6c1795b7be12a6dcb1"
     end
   end
 
